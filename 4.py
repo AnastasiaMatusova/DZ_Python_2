@@ -10,5 +10,5 @@ lst2 = []
 print('Элементы из файла: ', lst)
 for element in lst:
     lst2.append(int(element))
-print('Отредактированный список :', lst2)
+print('Отредактированный список:', lst2)
 print('Произведение элементов на указанных позициях равно:', prod(lst2))
